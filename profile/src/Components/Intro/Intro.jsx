@@ -16,7 +16,7 @@ const downloadFile = (url) => {
     })
 }
 const Intro = () => {
-    
+
     return (
         <>
             <section id="intro">
@@ -25,9 +25,6 @@ const Intro = () => {
                     <span className="introText">I'm<span className="introName"> Rahaf</span> <br />Website Designer </span>
                     <p className="introPara">I am Skilled Web Designer With experience in creating<br /> visually appealing and user friendly website</p>
                     <button className="btn" onClick={() => { downloadFile(pdf_file_url) }} ><img src={hire} alt="" className="hire" />Download CV</button>
-                    {/*<Link> <button className="btn" onClick={() => {*/}
-                    {/*    document.getElementById('').scrollIntoView({ behavior: "smooth" });*/}
-                    {/*}} ><img src={hire} alt="" className="hire" />About Me</button></Link> */}
                 </div>
                 <img src={cute} alt="Profile" className="bg" />
             </section>
